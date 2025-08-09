@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dolphin Meme Token</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg1: #6B00F5;
+      --bg2: #9D00F2;
+      --bg3: #DB7700;
+      --text: #ffffff;
+      /* Platform brand bases tuned to blend with gradient */
+      --x: #1da1f2;            /* Twitter */
+      --discord: #5865F2;      /* Discord */
+      --telegram: #27A7E7;     /* Telegram */
+      --tiktok: #111111;       /* TikTok */
+      --ig1: #f58529;          /* Instagram gradient stops */
+      --ig2: #dd2a7b;
+      --ig3: #8134af;
+      --ig4: #515bd4;
+    }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    html,body { height:100%; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial; }
+    body{
+      background: linear-gradient(135deg, var(--bg1) 0%, var(--bg2) 40%, var(--bg3) 100%);
+      color: var(--text);
+      min-height:100vh; padding: 28px;
+      display:flex; align-items:center; justify-content:center;
+    }
+    .wrapper{
+      display:flex; align-items:center; justify-content:space-between;
+      gap: 24px; max-width:1200px; width:100%;
+    }
+    .content{ flex: 1; }
+    .line{ display:block; width:100%; padding: 6px 0; text-shadow: 0 2px 10px rgba(0,0,0,.25);}
+    .l1{ font-size: 32px; font-weight: 800; }
+    .l2{ font-size: 22px; font-weight: 700; opacity: .98; }
+    .l3{ font-size: 18px; font-weight: 600; opacity: .95; }
+    .l4,.l5,.l6,.l7,.l8,.l9{ font-size: 18px; }
+    .l6,.l7,.l8{ font-weight: 700; letter-spacing:.2px; }
+
+    /* Social bar */
+    .socials{
+      display:flex; gap:12px; flex-wrap:wrap; margin-top:18px;
+    }
+    .btn{
+      width:42px; height:42px; border-radius:12px;
+      display:inline-flex; align-items:center; justify-content:center;
+      color:#fff; text-decoration:none;
+      box-shadow: 0 6px 16px rgba(0,0,0,.18);
+      transition: transform .15s ease, box-shadow .15s ease, opacity .15s ease;
+      opacity:.95;
+    }
+    .btn:hover{ transform: translateY(-2px); box-shadow:0 10px 22px rgba(0,0,0,.24); opacity:1; }
+    .btn svg{ width:22px; height:22px; display:block; fill:#fff; }
+    .btn.x{ background: linear-gradient(145deg, rgba(29,161,242,.95), rgba(29,161,242,.8)); }
+    .btn.discord{ background: linear-gradient(145deg, rgba(88,101,242,.95), rgba(88,101,242,.8)); }
+    .btn.telegram{ background: linear-gradient(145deg, rgba(39,167,231,.95), rgba(39,167,231,.8)); }
+    .btn.tiktok{ background: linear-gradient(145deg, rgba(17,17,17,.92), rgba(17,17,17,.8)); }
+    .btn.ig{ background: radial-gradient(circle at 30% 107%, var(--ig1), var(--ig2) 45%, var(--ig3) 70%, var(--ig4)); }
+
+    /* Dolphin */
+    .dolphin-img{ flex-shrink:0; max-width:320px; filter: drop-shadow(0 8px 24px rgba(0,0,0,.25)); }
+    .dolphin-img img{ width:100%; height:auto; display:block; border-radius:14px; }
+
+    @media (max-width:820px){
+      .wrapper{ flex-direction:column; align-items:center; }
+      .content{ text-align:center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <main class="content" aria-label="Dolphin Meme Token intro">
+      <span class="line l1">🐬 Dolphin Meme Token</span>
+      <span class="line l2">The Future of Real World Utility Memes on Solana</span>
+      <span class="line l3">Dolphin Solana: More than just a &quot;Meme Coin&quot; for laughs…</span>
+      <span class="line l4">It's a meme coin with purpose, a smile, and real utility 😄🐬</span>
+      <span class="line l5">Its idea is to empower token holders to:</span>
+      <span class="line l6">Participate</span>
+      <span class="line l7">Enjoy</span>
+      <span class="line l8">And Benefit</span>
+      <span class="line l9">from Web3, NFT, and DAO technologies — even if you're not an expert.</span>
+
+      <!-- Colored brand-matched icon buttons -->
+      <div class="socials" aria-label="social links">
+        <a class="btn x" href="https://x.com/DolphinSolana24?s=09" target="_blank" rel="noopener" title="X / Twitter">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2H21l-6.5 7.43L22.5 22H15.4l-5.2-6.86L4.1 22H1.3l7.2-8.23L1 2h7.3l4.7 6.19L18.244 2Z"/></svg>
+        </a>
+        <a class="btn discord" href="https://discord.gg/JyupxNjPDH" target="_blank" rel="noopener" title="Discord">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.369a19.79 19.79 0 0 0-4.885-1.515c-.21.375-.444.863-.608 1.249-1.84-.276-3.68-.276-5.486 0-.17-.4-.405-.874-.617-1.249a19.736 19.736 0 0 0-4.886 1.515C2.88 9.027 2.144 13.58 2.49 18.057a19.98 19.98 0 0 0 6.015 2.97c.464-.636.874-1.31 1.226-2.02a13.64 13.64 0 0 1-1.944-.932c.162-.118.323-.24.48-.366 3.103 1.432 6.374 1.432 9.4 0 .63.39 1.3.73 1.94 1.01.36.71.77 1.384 1.226 2.02a20.03 20.03 0 0 0 6.015-2.97c.58-6.24-.18-11.567-3.7-13.667Z"/></svg>
+        </a>
+        <a class="btn telegram" href="https://t.me/DolphineSolana2" target="_blank" rel="noopener" title="Telegram Public">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.94 5.24c.2-.95-.74-1.76-1.63-1.38L2.7 11.04c-.9.39-.83 1.72.09 2l4.34 1.39 1.68 5.4c.27.86 1.42 1.02 1.93.26l2.4-3.54 4.62 3.4c.86.64 2.1.16 2.3-.9l2.24-13.81Z"/></svg>
+        </a>
+        <a class="btn telegram" href="https://t.me/DolphinSolana1" target="_blank" rel="noopener" title="Telegram Announcements">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.94 5.24c.2-.95-.74-1.76-1.63-1.38L2.7 11.04c-.9.39-.83 1.72.09 2l4.34 1.39 1.68 5.4c.27.86 1.42 1.02 1.93.26l2.4-3.54 4.62 3.4c.86.64 2.1.16 2.3-.9l2.24-13.81Z"/></svg>
+        </a>
+        <a class="btn tiktok" href="https://www.tiktok.com/@dolphinsolana?_t=ZS-8yP30gpTyVD" target="_blank" rel="noopener" title="TikTok">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3v13.5A5.5 5.5 0 1 0 14.5 11V6h2.5V3H9z"/></svg>
+        </a>
+        <a class="btn ig" href="https://www.instagram.com/dolphinsolana?igsh=b3ZtYXB1dHY3OWxk" target="_blank" rel="noopener" title="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 6.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm4.8-2a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2z"/></svg>
+        </a>
+      </div>
+    </main>
+
+    <div class="dolphin-img" aria-label="Swimming Dolphin">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAASCAYAAACK2xsGAAAADElEQVR4nGNkZGJmoAQwUaSOgYGBAAAJRQMbjamkmwAAAABJRU5ErkJggg==" alt="Swimming Dolphin">
+    </div>
+  </div>
+</body>
+</html>
